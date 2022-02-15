@@ -1,0 +1,103 @@
+{
+  "name": "rakus-sns-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --env=jsdom --verbose",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@hookform/resolvers": "^2.8.5",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9.8.8",
+    "axios": "^0.24.0",
+    "axios-jsonp": "^1.0.4",
+    "date-fns": "^2.28.0",
+    "html-react-parser": "^1.4.6",
+    "next": "12.0.7",
+    "next-page-tester": "^0.30.0",
+    "nprogress": "^0.2.0",
+    "postcss": "^7.0.39",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.22.5",
+    "react-hot-toast": "^2.2.0",
+    "react-loading": "^2.0.3",
+    "sharp": "^0.29.3",
+    "styled-components": "^5.3.3",
+    "swr": "^1.1.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "universal-cookie": "^4.0.4",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@storybook/addon-actions": "^6.4.17",
+    "@storybook/addon-essentials": "^6.4.17",
+    "@storybook/addon-interactions": "^6.4.18",
+    "@storybook/addon-links": "^6.4.17",
+    "@storybook/react": "^6.4.17",
+    "@storybook/testing-library": "0.0.9",
+    "@storybook/testing-react": "^1.2.3",
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "17.0.2",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "17.0.37",
+    "@types/styled-components": "^5.1.21",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.5.0",
+    "eslint-config-next": "^12.0.7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-storybook": "^0.5.6",
+    "jest": "^27.4.7",
+    "jest-css-modules": "^2.1.0",
+    "prettier": "^2.5.1",
+    "typescript": "4.5.4"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/"
+    ],
+    "moduleNameMapper": {
+      "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
+    }
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": false,
+    "jsxSingleQuote": false
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzu1997/rakus-sns-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzu1997/rakus-sns-app/issues"
+  },
+  "homepage": "https://github.com/suzu1997/rakus-sns-app#readme"
+}
